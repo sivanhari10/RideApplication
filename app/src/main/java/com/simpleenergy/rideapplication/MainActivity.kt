@@ -14,6 +14,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 204439b (Color Changes)
         setContent {
             RideApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->

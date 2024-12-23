@@ -11,6 +11,7 @@ object AppConstants {
     const val TRIP ="Trip A"
     const val EMPTY_STRING =""
 
+<<<<<<< HEAD
     fun getDataSets(isPortrait:Boolean): List<Float> {
         return if (isPortrait) {
             listOf(45f, 29f, 23f, 20f, 20f) // Portrait data
@@ -18,5 +19,11 @@ object AppConstants {
         else {
             listOf(60f, 40f, 30f, 25f, 25f) // Landscape data
         }
+=======
+    fun getDataSets(): List<Float> {
+        return listOf(45f, 29f, 23f, 20f, 20f) // Portrait data
+
+
+>>>>>>> 204439b (Color Changes)
     }
 }
